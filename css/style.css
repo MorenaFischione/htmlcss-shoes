@@ -4,6 +4,11 @@
     margin: 0%;
 }
 
+header {
+    position: fixed;
+
+}
+
 nav {
     list-style-type: none;
     float: right;
@@ -16,6 +21,12 @@ li{
     border-radius: 25px;
     margin: 20px 10px;
 }
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .container {
     height: 100vh;
